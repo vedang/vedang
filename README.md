@@ -1,6 +1,11 @@
 ### Hi there 👋
 
-![Vedang's GitHub stats](https://github-readme-stats.vercel.app/api?username=vedang&show_icons=true&theme=radical)
+<a href="https://github.com/vedang">
+  <img align="left" height="170px" src="https://github-readme-stats.vercel.app/api?username=vedang&show_icons=true&theme=dracula&count_private=true" />
+</a>
+<a href="https://github.com/vedang">
+  <img align="left" height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vedang&layout=compact&show_icons=true&theme=dracula&langs_count=8" />
+</a>
 
 <!--
 **vedang/vedang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
