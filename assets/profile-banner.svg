@@ -1,0 +1,48 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Vedang Manerikar profile banner</title>
+  <desc id="desc">A dark gradient banner with the name Vedang Manerikar and a short tagline about Clojure, Emacs Lisp, and developer tooling.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" />
+      <stop offset="0.55" stop-color="#111827" />
+      <stop offset="1" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="accent" x1="40" y1="40" x2="450" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#22D3EE" />
+    </linearGradient>
+    <linearGradient id="panel" x1="810" y1="72" x2="1188" y2="248" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#111827" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="320" rx="28" fill="url(#bg)" />
+  <rect x="40" y="42" width="8" height="236" rx="4" fill="url(#accent)" />
+
+  <circle cx="1158" cy="58" r="84" fill="#22D3EE" fill-opacity="0.06" />
+  <circle cx="1228" cy="112" r="112" fill="#8B5CF6" fill-opacity="0.08" />
+  <circle cx="1100" cy="286" r="92" fill="#38BDF8" fill-opacity="0.05" />
+
+  <text x="72" y="78" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0.14em">OPEN SOURCE · CLOJURE · EMACS LISP</text>
+  <text x="72" y="142" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="50" font-weight="700">Vedang Manerikar</text>
+  <text x="72" y="184" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">Building tools for reading, thinking, and programming</text>
+  <text x="72" y="224" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="20">Developer tooling • knowledge workflows • practical automation</text>
+
+  <rect x="810" y="72" width="378" height="176" rx="18" fill="url(#panel)" stroke="#334155" stroke-width="1.5" />
+  <circle cx="844" cy="98" r="6" fill="#FB7185" />
+  <circle cx="866" cy="98" r="6" fill="#FBBF24" />
+  <circle cx="888" cy="98" r="6" fill="#34D399" />
+
+  <text x="836" y="132" fill="#E2E8F0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">$ languages = [:clojure :emacs-lisp]</text>
+  <text x="836" y="164" fill="#E2E8F0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">$ focus = [:tooling :automation]</text>
+  <text x="836" y="196" fill="#E2E8F0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">$ interests = [:mcp :knowledge-work]</text>
+  <text x="836" y="228" fill="#67E8F9" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">$ build(useful-things)</text>
+
+  <rect x="72" y="256" width="128" height="34" rx="17" fill="#111827" stroke="#475569" />
+  <rect x="212" y="256" width="146" height="34" rx="17" fill="#111827" stroke="#475569" />
+  <rect x="370" y="256" width="178" height="34" rx="17" fill="#111827" stroke="#475569" />
+  <text x="101" y="278" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Clojure</text>
+  <text x="239" y="278" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Emacs Lisp</text>
+  <text x="399" y="278" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Developer Tooling</text>
+</svg>
