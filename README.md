@@ -1,30 +1,23 @@
-<div align="center">
-  <img src="./assets/profile-banner.svg" alt="Vedang Manerikar — Clojure, Emacs Lisp, developer tooling, and practical automation" />
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="Vedang Manerikar — Clojure, Emacs Lisp, and developer tooling" />
+</p>
 
-  <h1>Hi, I'm Vedang 👋</h1>
+# Hi, I'm Vedang 👋
 
-  <p>
-    Open-source tinkerer from <strong>Pune, India</strong>.<br />
-    I mostly build in <strong>Clojure</strong> and <strong>Emacs Lisp</strong>, with a soft spot for tools that improve how we read, think, write, and program.
-  </p>
+Open-source tinkerer from **Pune, India**. I mostly build in **Clojure** and **Emacs Lisp**, with a soft spot for tools that improve how we read, think, write, and program.
 
-  <p>
-    <a href="https://vedang.me/"><img src="https://img.shields.io/badge/-vedang.me-0f766e?style=flat-square&logo=firefox-browser&logoColor=white" alt="Website" /></a>
-    <a href="https://github.com/vedang"><img src="https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-    <a href="https://x.com/vedang"><img src="https://img.shields.io/badge/-@vedang-000000?style=flat-square&logo=x&logoColor=white" alt="X" /></a>
-  </p>
+[![Website](https://img.shields.io/badge/-vedang.me-0f766e?style=flat-square&logo=firefox-browser&logoColor=white)](https://vedang.me/)
+[![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vedang)
+[![X](https://img.shields.io/badge/-@vedang-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/vedang)
 
-  <p>
-    <img src="https://img.shields.io/badge/-Clojure-5881D8?style=flat-square&logo=clojure&logoColor=white" alt="Clojure" />
-    <img src="https://img.shields.io/badge/-Emacs%20Lisp-7F5AB6?style=flat-square&logo=gnu-emacs&logoColor=white" alt="Emacs Lisp" />
-    <img src="https://img.shields.io/badge/-Babashka-2E8B57?style=flat-square&logo=clojure&logoColor=white" alt="Babashka" />
-    <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/-MCP-8B5CF6?style=flat-square" alt="MCP" />
-    <img src="https://img.shields.io/badge/-Developer%20Tooling-111827?style=flat-square" alt="Developer Tooling" />
-  </p>
-</div>
+![Clojure](https://img.shields.io/badge/-Clojure-5881D8?style=flat-square&logo=clojure&logoColor=white)
+![Emacs Lisp](https://img.shields.io/badge/-Emacs%20Lisp-7F5AB6?style=flat-square&logo=gnu-emacs&logoColor=white)
+![Babashka](https://img.shields.io/badge/-Babashka-2E8B57?style=flat-square&logo=clojure&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![MCP](https://img.shields.io/badge/-MCP-8B5CF6?style=flat-square)
+![Developer Tooling](https://img.shields.io/badge/-Developer%20Tooling-111827?style=flat-square)
 
-I like building practical tools for developers and knowledge workers. A lot of my open-source work sits at the intersection of **Emacs**, **Clojure**, **knowledge workflows**, and **developer ergonomics**. More recently, I've also been exploring **MCP** and **agent-oriented tooling**.
+I like building practical tools for developers and knowledge workers. A lot of my open-source work lives at the intersection of **Emacs**, **Clojure**, **knowledge workflows**, and **developer ergonomics**. More recently, I've been exploring **MCP** and **agent-oriented tooling**.
 
 **Alum:** [Recurse Center](https://www.recurse.com/) · **Previously:** [Helpshift](https://www.helpshift.com/)
 
@@ -54,7 +47,6 @@ I like building practical tools for developers and knowledge workers. A lot of m
 
 <details>
 <summary><strong>More projects I've built</strong></summary>
-<br />
 
 - **[emacs-up](https://github.com/vedang/emacs-up)** — My long-running personal Emacs configuration. `⭐ 33`
 - **[nginx-nonewlines](https://github.com/vedang/nginx-nonewlines)** — Nginx module that strips newline characters from served HTML. `⭐ 18`
