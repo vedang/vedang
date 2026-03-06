@@ -14,7 +14,7 @@
 
 I like building practical tools for developers and knowledge workers. A lot of my open-source work lives at the intersection of **Emacs**, **Clojure**, **knowledge workflows**, and **developer ergonomics**. More recently, I've been exploring **agent-oriented tooling**.
 
-**Alum:** [Recurse Center](https://www.recurse.com/) · **Previously:** [Helpshift](https://www.helpshift.com/)
+**Current**: [Unravel.tech](https://unravel.tech) · **Alum:** [Recurse Center](https://www.recurse.com/) · **Previously:** [Helpshift](https://www.helpshift.com/)
 
 ## Featured work
 
@@ -38,13 +38,17 @@ I like building practical tools for developers and knowledge workers. A lot of m
 
 <details>
 <summary><strong>Unmaintained projects that I'm proud of</strong></summary>
-- 🌱 **[bloomclj](https://github.com/vedang/bloomclj)** — Bloom filter implementation in Clojure. `⭐ 20`
-- **[nginx-nonewlines](https://github.com/vedang/nginx-nonewlines)** — Nginx module that strips newline characters from served HTML. `⭐ 18`
-- **[python-emacs](https://github.com/vedang/python-emacs)** — Emacs setup and third-party packages for a stronger Python workflow. `⭐ 11`
-- **[emacs-up](https://github.com/vedang/emacs-up)** — My long-running personal Emacs configuration. `⭐ 33`
-- 🗂️ **[org-mode-crate](https://github.com/vedang/org-mode-crate)** — Plug-and-play Org Mode configuration built from a real day-to-day workflow. `⭐ 23`
-- 🔧 **[bb-scripts](https://github.com/vedang/bb-scripts)** — A collection of Babashka scripts for day-to-day automation. `⭐ 12`
-- 📚 **[csaoid](https://github.com/vedang/csaoid)** — Cheat sheets and other interesting documents I keep reaching for. `⭐ 21`
+
+<ul>
+  <li>🌱 <strong><a href="https://github.com/vedang/bloomclj">bloomclj</a></strong> — Bloom filter implementation in Clojure. <code>⭐ 20</code></li>
+  <li>🧹<strong><a href="https://github.com/vedang/nginx-nonewlines">nginx-nonewlines</a></strong> — Nginx module that strips newline characters from served HTML. <code>⭐ 18</code></li>
+  <li>🐍<strong><a href="https://github.com/vedang/python-emacs">python-emacs</a></strong> — Emacs setup and third-party packages for a stronger Python workflow. <code>⭐ 11</code></li>
+  <li>👷<strong><a href="https://github.com/vedang/emacs-up">emacs-up</a></strong> — My long-running personal Emacs configuration. <code>⭐ 33</code></li>
+  <li>🗂️ <strong><a href="https://github.com/vedang/org-mode-crate">org-mode-crate</a></strong> — Plug-and-play Org Mode configuration built from a real day-to-day workflow. <code>⭐ 23</code></li>
+  <li>🔧 <strong><a href="https://github.com/vedang/bb-scripts">bb-scripts</a></strong> — A collection of Babashka scripts for day-to-day automation. <code>⭐ 12</code></li>
+  <li>📚 <strong><a href="https://github.com/vedang/csaoid">csaoid</a></strong> — Cheat sheets and other interesting documents I keep reaching for. <code>⭐ 21</code></li>
+</ul>
+
 </details>
 
 ## Connect
