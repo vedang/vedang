@@ -21,6 +21,12 @@ I like building practical tools for developers and knowledge workers. A lot of m
 ### Agent tooling & practical automation
 
 - 🤖 **[agents](https://github.com/vedang/agents)** — My agent harness configuration, extensions, skills, and workflow setup.
+- 📚 **[pi-learn-stuff](https://github.com/vedang/pi-learn-stuff)** — Pi extension that adds a concise lessons block to assistant responses with selective persistence to `AGENTS.md`.
+- 🔍 **[pi-prompt-history](https://github.com/vedang/pi-prompt-history)** — Ctrl-R style prompt-history search extension for pi.
+- 🎨 **[pi-antigravity-image-gen](https://github.com/vedang/pi-antigravity-image-gen)** — Pi package adding a `generate_image` tool backed by Google Antigravity credentials with Vertex AI-first fallback.
+- 🧠 **[pi-quizme](https://github.com/vedang/pi-quizme)** — Test your understanding of coding sessions with auto-generated quizzes about recent changes.
+- 🧹 **[pi-simplify-code](https://github.com/vedang/pi-simplify-code)** — Automatically triggers code simplification after non-markdown code changes.
+- 🔌 **[pi-custom-provider-zai](https://github.com/vedang/pi-custom-provider-zai)** — Custom provider extension exposing ZAI-family models from two upstream hosts.
 
 ### Emacs & knowledge workflows
 
@@ -35,6 +41,7 @@ I like building practical tools for developers and knowledge workers. A lot of m
 - 🗃️ **[clj_fdb](https://github.com/vedang/clj_fdb)** — Thin Clojure wrapper around the Java FoundationDB API. `⭐ 27`
 - 🧠 **[cljc-fsrs](https://github.com/open-spaced-repetition/cljc-fsrs)** — Clojure(Script) implementation of FSRS v4 for spaced repetition. `⭐ 13`
 - 🪵 **[clj-logging](https://github.com/vedang/clj-logging)** — Template project showing how to wire Log4J2 cleanly across transitive dependencies.
+- 📐 **[metaprogramming](https://github.com/unravel-team/metaprogramming)** — Cross-language metaprogramming conventions and Makefile templates for Clojure, Go, Python, and TypeScript projects.
 
 <details>
 <summary><strong>Unmaintained projects that I'm proud of</strong></summary>
