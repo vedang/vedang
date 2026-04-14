@@ -20,18 +20,18 @@ I like building practical tools for developers and knowledge workers. A lot of m
 
 ### Agent tooling & practical automation
 
-- 🤖 **[agents](https://github.com/vedang/agents)** — My agent harness configuration, extensions, skills, and workflow setup.
+- 🤖 **[agents](https://github.com/vedang/agents)** — My agent harness configuration, extensions, skills, and workflow setup. `⭐ 10`
 - 📚 **[pi-learn-stuff](https://github.com/vedang/pi-learn-stuff)** — Pi extension that adds a concise lessons block to assistant responses with selective persistence to `AGENTS.md`.
 - 🔍 **[pi-prompt-history](https://github.com/vedang/pi-prompt-history)** — Ctrl-R style prompt-history search extension for pi.
-- 🎨 **[pi-antigravity-image-gen](https://github.com/vedang/pi-antigravity-image-gen)** — Pi package adding a `generate_image` tool backed by Google Antigravity credentials with Vertex AI-first fallback.
 - 🧠 **[pi-quizme](https://github.com/vedang/pi-quizme)** — Test your understanding of coding sessions with auto-generated quizzes about recent changes.
 - 🧹 **[pi-simplify-code](https://github.com/vedang/pi-simplify-code)** — Automatically triggers code simplification after non-markdown code changes.
 - 🔌 **[pi-custom-provider-zai](https://github.com/vedang/pi-custom-provider-zai)** — Custom provider extension exposing ZAI-family models from two upstream hosts.
+- 🔄 **[pi-ralph-loop](https://github.com/vedang/pi-ralph-loop)** — Ralph-style autonomous planning loops for pi.
 
 ### Emacs & knowledge workflows
 
-- 📄 **[pdf-tools](https://github.com/vedang/pdf-tools)** — Emacs support library for PDF files. `⭐ 790`
-- 🎨 **[alabaster-themes](https://github.com/vedang/alabaster-themes)** — Minimal light and dark GNU Emacs themes inspired by the original Alabaster palette. `⭐ 18`
+- 📄 **[pdf-tools](https://github.com/vedang/pdf-tools)** — Emacs support library for PDF files. `⭐ 806`
+- 🎨 **[alabaster-themes](https://github.com/vedang/alabaster-themes)** — Minimal light and dark GNU Emacs themes inspired by the original Alabaster palette. `⭐ 24`
 - ⚙️ **[unravel-team/emacs](https://github.com/unravel-team/emacs)** — GNU Emacs configuration for Emacs 30 and above. `⭐ 16`
 - 📝 **[denote-publish](https://github.com/vedang/denote-publish)** — Publish Denote notes to Markdown while keeping front matter intact.
 
@@ -47,6 +47,7 @@ I like building practical tools for developers and knowledge workers. A lot of m
 <summary><strong>Unmaintained projects that I'm proud of</strong></summary>
 
 <ul>
+  <li>🎨<strong><a href="https://github.com/vedang/pi-antigravity-image-gen">pi-antigravity-image-gen</a></strong> — Pi package adding a <code>generate_image</code> tool backed by Google Antigravity credentials with Vertex AI-first fallback.</li>
   <li>🌱 <strong><a href="https://github.com/vedang/bloomclj">bloomclj</a></strong> — Bloom filter implementation in Clojure. <code>⭐ 20</code></li>
   <li>🧹<strong><a href="https://github.com/vedang/nginx-nonewlines">nginx-nonewlines</a></strong> — Nginx module that strips newline characters from served HTML. <code>⭐ 18</code></li>
   <li>🐍<strong><a href="https://github.com/vedang/python-emacs">python-emacs</a></strong> — Emacs setup and third-party packages for a stronger Python workflow. <code>⭐ 11</code></li>
