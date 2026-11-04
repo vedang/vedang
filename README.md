@@ -20,28 +20,28 @@ I like building practical tools for developers and knowledge workers. A lot of m
 
 ### Agent tooling & practical automation
 
-- 🤖 **[agents](https://github.com/vedang/agents)** — My agent harness configuration, extensions, skills, and workflow setup. `⭐ 10`
-- 📚 **[pi-learn-stuff](https://github.com/vedang/pi-learn-stuff)** — Pi extension that adds a concise lessons block to assistant responses with selective persistence to `AGENTS.md`.
-- 🔍 **[pi-prompt-history](https://github.com/vedang/pi-prompt-history)** — Ctrl-R style prompt-history search extension for pi.
-- 🧠 **[pi-quizme](https://github.com/vedang/pi-quizme)** — Test your understanding of coding sessions with auto-generated quizzes about recent changes.
-- 🧹 **[pi-simplify-code](https://github.com/vedang/pi-simplify-code)** — Automatically triggers code simplification after non-markdown code changes.
-- 🔌 **[pi-custom-provider-zai](https://github.com/vedang/pi-custom-provider-zai)** — Custom provider extension exposing ZAI-family models from two upstream hosts.
-- 🔄 **[pi-ralph-loop](https://github.com/vedang/pi-ralph-loop)** — Ralph-style autonomous planning loops for pi.
+- 🤖 **[dotagents](https://github.com/vedang/dotagents)** — My agent harness configuration, extensions, skills, and workflow setup. [Setup guides](https://vedang.me/dotagents/). `⭐ 13`
+- 🔎 **[pi-exa](https://github.com/vedang/pi-exa)** — Web search and page content extraction through Exa, inside Pi.
+- 📚 **[pi-load-skill](https://github.com/vedang/pi-load-skill)** — Load skills on demand from a palette instead of adding them all to the initial context.
+- 📐 **[pi-adr](https://github.com/unravel-team/pi-adr)** — Create and maintain Architecture Decision Records with Pi.
+- 📊 **[pi-opentelemetry](https://github.com/vedang/pi-opentelemetry)** — Opt-in OpenTelemetry logs, metrics, and traces for Pi sessions.
 
 ### Emacs & knowledge workflows
 
-- 📄 **[pdf-tools](https://github.com/vedang/pdf-tools)** — Emacs support library for PDF files. `⭐ 806`
-- 🎨 **[alabaster-themes](https://github.com/vedang/alabaster-themes)** — Minimal light and dark GNU Emacs themes inspired by the original Alabaster palette. `⭐ 24`
+- 📄 **[pdf-tools](https://github.com/vedang/pdf-tools)** — Emacs support library for PDF files. `⭐ 851`
+- 🎨 **[alabaster-themes](https://github.com/vedang/alabaster-themes)** — Minimal light and dark GNU Emacs themes inspired by the original Alabaster palette. `⭐ 34`
 - ⚙️ **[unravel-team/emacs](https://github.com/unravel-team/emacs)** — GNU Emacs configuration for Emacs 30 and above. `⭐ 16`
-- 📝 **[denote-publish](https://github.com/vedang/denote-publish)** — Publish Denote notes to Markdown while keeping front matter intact.
+- 📝 **[denote-publish](https://github.com/vedang/denote-publish)** — Publish Denote notes to Markdown while keeping front matter intact. `⭐ 1`
 
 ### Clojure libraries & backend tooling
 
-- 🔌 **[mcp-clojure-sdk](https://github.com/unravel-team/mcp-clojure-sdk)** — A Clojure SDK for creating MCP servers (and eventually clients). `⭐ 61`
-- 🗃️ **[clj_fdb](https://github.com/vedang/clj_fdb)** — Thin Clojure wrapper around the Java FoundationDB API. `⭐ 27`
-- 🧠 **[cljc-fsrs](https://github.com/open-spaced-repetition/cljc-fsrs)** — Clojure(Script) implementation of FSRS v4 for spaced repetition. `⭐ 13`
-- 🪵 **[clj-logging](https://github.com/vedang/clj-logging)** — Template project showing how to wire Log4J2 cleanly across transitive dependencies.
-- 📐 **[metaprogramming](https://github.com/unravel-team/metaprogramming)** — Cross-language metaprogramming conventions and Makefile templates for Clojure, Go, Python, and TypeScript projects.
+- 🔌 **[mcp-clojure-sdk](https://github.com/unravel-team/mcp-clojure-sdk)** — A Clojure SDK for creating MCP servers (and eventually clients). `⭐ 65`
+- 🗃️ **[clj_fdb](https://github.com/vedang/clj_fdb)** — Thin Clojure wrapper around the Java FoundationDB API. `⭐ 28`
+- 🧠 **[cljc-fsrs](https://github.com/open-spaced-repetition/cljc-fsrs)** — Clojure(Script) implementation of FSRS v4 for spaced repetition. `⭐ 17`
+- 🪵 **[clj-logging](https://github.com/vedang/clj-logging)** — Template project showing how to wire Log4J2 cleanly across transitive dependencies. `⭐ 7`
+- 📐 **[metaprogramming](https://github.com/unravel-team/metaprogramming)** — Cross-language metaprogramming conventions and Makefile templates for Clojure, Go, Python, and TypeScript projects. `⭐ 2`
+- 🌐 **[litellm-clj](https://github.com/unravel-team/litellm-clj)** — A shared Clojure API for multiple language model providers, with streaming and model routing. `⭐ 52`
+- 🧩 **[DSCloj](https://github.com/unravel-team/DSCloj)** — Define and optimize language model pipelines in Clojure, inspired by DSPy. `⭐ 42`
 
 <details>
 <summary><strong>Unmaintained projects that I'm proud of</strong></summary>
