@@ -1,11 +1,12 @@
 #!/usr/bin/env bb
 (ns update-star-counts
   (:require [babashka.http-client :as http]
+            [cheshire.core :as json]
             [clojure.string :as str]))
 
 (def github-api "https://api.github.com/repos")
 (def github-pattern #"https://github\.com/([a-zA-Z0-9_-]+)/([a-zA-Z0-9._-]+)")
-(def star-pattern #"[`<]⭐\s*\d+[`>]")
+(def star-pattern #"(?:`⭐\s*\d+`|<code>⭐\s*\d+</code>)")
 (def clean-regex #"[>\"\)\]\s].*$")
 (def default-headers
   {"Accept" "application/vnd.github.v3+json"
@@ -31,7 +32,7 @@
     (try
       (let [resp (http/get url {:headers (make-headers)})]
         (if (= 200 (:status resp))
-          (get-in resp [:body :stargazers_count] 0)
+          (:stargazers_count (json/parse-string (:body resp) true))
           (do
             (print-error owner repo (str "HTTP " (:status resp)))
             nil)))
@@ -39,40 +40,30 @@
         (print-error owner repo (.getMessage e))
         nil))))
 
-(defn find-insert-pos [line url-end]
-  (let [rest (subs line url-end)
-        md-close (str/index-of rest "]")
-        html-close (when-let [pos (str/index-of rest "</a>")] (+ pos 4))]
-    (cond
-      (and md-close (or (not html-close) (< md-close html-close)))
-      (+ url-end md-close)
-      html-close (+ url-end html-close)
-      :else (count line))))
-
 (defn format-star [stars html?]
   (if html?
     (str "<code>⭐ " stars "</code>")
     (str "`⭐ " stars "`")))
 
-(defn update-star-in-line [line full owner repo star-data]
+(defn update-star-in-line [line owner repo star-data]
   (let [key (str owner "/" repo)
-        stars (get star-data key)
-        url-end (str/index-of line full)]
+        stars (get star-data key)]
     (cond
       (and stars (re-find star-pattern line))
       (str/replace-first line star-pattern
                         (format-star stars (str/includes? line "<code>")))
 
       stars
-      (let [pos (find-insert-pos line url-end)]
-        (str (subs line 0 pos) " " (format-star stars true) (subs line pos)))
+      (let [html-end (str/index-of line "</li>")
+            pos (or html-end (count line))]
+        (str (subs line 0 pos) " " (format-star stars (some? html-end)) (subs line pos)))
 
       :else line)))
 
 (defn update-star-counts [content star-data]
   (->> (str/split-lines content)
-       (map #(reduce (fn [line [url owner repo]]
-                       (update-star-in-line line url owner repo star-data))
+       (map #(reduce (fn [line [_ owner repo]]
+                       (update-star-in-line line owner repo star-data))
                      %
                      (reverse (re-seq github-pattern %))))
        (str/join "\n")))

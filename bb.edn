@@ -4,5 +4,8 @@
                  (println "Starting nrepl on 1337...")
                  (srv/start-server! {:port 1337}))}
 
+  test {:requires ([babashka.process :as proc])
+        :task (proc/exec ["bb" "update-star-counts-test.clj"])}
+
   update-stars {:requires ([babashka.process :as proc])
                 :task (apply proc/exec ["bb" "update-star-counts.clj"] *command-line-args*)}}}
