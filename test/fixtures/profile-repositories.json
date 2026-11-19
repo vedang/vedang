@@ -1,0 +1,12 @@
+[
+  {"full_name":"vedang/active","name":"active","owner":{"login":"vedang"},"private":false,"fork":false,"manifest":{"name":"@vedang/active","pi":{"extensions":["index.ts"]}}},
+  {"full_name":"vedang/sleeping","name":"sleeping","owner":{"login":"vedang"},"private":false,"fork":false,"manifest":{"name":"sleeping","pi":{"extensions":["index.ts"]}}},
+  {"full_name":"vedang/new-package","name":"new-package","description":"New <tools> & `useful` [skills].","owner":{"login":"vedang"},"private":false,"fork":false,"manifest":{"name":"@vedang/new-package","pi":{"skills":["skills"]}}},
+  {"full_name":"vedang/new-inactive","name":"new-inactive","description":"An inactive package.","owner":{"login":"vedang"},"private":false,"fork":false,"manifest":{"pi":{"prompts":["prompts"]}}},
+  {"full_name":"team/org-package","name":"org-package","owner":{"login":"team"},"private":false,"fork":false,"contributors":[{"login":"vedang"}],"manifest":{"pi":{"themes":["themes"]}}},
+  {"full_name":"vedang/forked","name":"forked","owner":{"login":"vedang"},"private":false,"fork":true,"manifest":{"pi":{"extensions":["index.ts"]}}},
+  {"full_name":"vedang/private","name":"private","owner":{"login":"vedang"},"private":true,"fork":false,"manifest":{"pi":{"extensions":["index.ts"]}}},
+  {"full_name":"vedang/config","name":"config","owner":{"login":"vedang"},"private":false,"fork":false,"manifest":{"name":"config"}},
+  {"full_name":"vedang/empty-manifest","name":"empty-manifest","owner":{"login":"vedang"},"private":false,"fork":false,"manifest":{"pi":{}}},
+  {"full_name":"other/not-authored","name":"not-authored","owner":{"login":"other"},"private":false,"fork":false,"contributors":[{"login":"someone-else"}],"manifest":{"pi":{"extensions":["index.ts"]}}}
+]

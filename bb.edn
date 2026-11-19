@@ -1,11 +1,11 @@
-{:tasks
- {nrepl {:requires ([babashka.nrepl.server :as srv])
-         :task (do
-                 (println "Starting nrepl on 1337...")
-                 (srv/start-server! {:port 1337}))}
-
-  test {:requires ([babashka.process :as proc])
-        :task (proc/exec ["bb" "update-star-counts-test.clj"])}
-
-  update-stars {:requires ([babashka.process :as proc])
-                :task (apply proc/exec ["bb" "update-star-counts.clj"] *command-line-args*)}}}
+{:tasks {nrepl {:requires ([babashka.nrepl.server :as srv]),
+                :task (do (println "Starting nrepl on 1337...") (srv/start-server! {:port 1337}))},
+         refresh {:doc "Refresh profile packages and stars; commit and push main only on change",
+                  :requires ([babashka.process :as proc]),
+                  :task (proc/exec ["bb" "refresh-profile.clj"])},
+         test {:requires ([babashka.process :as proc]),
+               :task (doseq [file ["update-star-counts-test.clj" "refresh-profile-test.clj"]]
+                       (proc/check (proc/shell "bb" file)))},
+         update-stars {:requires ([babashka.process :as proc]),
+                       :task
+                         (apply proc/exec ["bb" "update-star-counts.clj"] *command-line-args*)}}}

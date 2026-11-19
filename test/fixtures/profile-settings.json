@@ -1,0 +1,8 @@
+{
+  "packages": [
+    {"source": "git:github.com/vedang/active@v1", "extensions": ["*"]},
+    "git:github.com/vedang/old-org-package",
+    "npm:@vedang/new-package@1.0.0",
+    "git:github.com/vedang/forked"
+  ]
+}
