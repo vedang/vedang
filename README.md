@@ -47,12 +47,25 @@ I like building practical tools for developers and knowledge workers. A lot of m
 <summary><strong>Unmaintained projects that I'm proud of</strong></summary>
 
 <ul>
-  <li>🎨<strong><a href="https://github.com/vedang/pi-antigravity-image-gen">pi-antigravity-image-gen</a></strong> — Pi package adding a <code>generate_image</code> tool backed by Google Antigravity credentials with Vertex AI-first fallback.</li>
+  <li>🎨 <strong><a href="https://github.com/vedang/pi-antigravity-image-gen">pi-antigravity-image-gen</a></strong> — Generate images in Pi through Google Antigravity and Vertex AI. <code>⭐ 0</code></li>
+  <li>💬 <strong><a href="https://github.com/vedang/pi-btw">pi-btw</a></strong> — Ask read-only side questions without adding them to the main Pi conversation. <code>⭐ 0</code></li>
+  <li>🌊 <strong><a href="https://github.com/vedang/pi-custom-provider-deepseek">pi-custom-provider-deepseek</a></strong> — Use DeepSeek models in Pi with support for its thinking controls. <code>⭐ 0</code></li>
+  <li>🌙 <strong><a href="https://github.com/vedang/pi-custom-provider-kimi">pi-custom-provider-kimi</a></strong> — Use selected Kimi models in Pi through the Kimi API. <code>⭐ 0</code></li>
+  <li>🟢 <strong><a href="https://github.com/vedang/pi-custom-provider-nvidia">pi-custom-provider-nvidia</a></strong> — Use a curated set of NVIDIA NIM models in Pi. <code>⭐ 0</code></li>
+  <li>🧠 <strong><a href="https://github.com/vedang/pi-custom-provider-zai">pi-custom-provider-zai</a></strong> — Use ZAI-family models hosted by ZAI and Cerebras in Pi. <code>⭐ 2</code></li>
+  <li>📝 <strong><a href="https://github.com/vedang/pi-learn-stuff">pi-learn-stuff</a></strong> — Capture reusable lessons from Pi sessions in <code>AGENTS.md</code> files. <code>⭐ 0</code></li>
+  <li>📊 <strong><a href="https://github.com/vedang/pi-progress-bar">pi-progress-bar</a></strong> — Show a passive task board and progress widget with Jev-backed assessments in Pi. <code>⭐ 0</code></li>
+  <li>🔎 <strong><a href="https://github.com/vedang/pi-prompt-history">pi-prompt-history</a></strong> — Search past Pi prompts with a Ctrl-R overlay. <code>⭐ 5</code></li>
+  <li>🧩 <strong><a href="https://github.com/vedang/pi-quizme">pi-quizme</a></strong> — Quiz your understanding of recent Pi session changes and grade your answers. <code>⭐ 0</code></li>
+  <li>🔁 <strong><a href="https://github.com/vedang/pi-ralph-loop">pi-ralph-loop</a></strong> — Run autonomous planning loops in Pi with progress saved between iterations. <code>⭐ 0</code></li>
+  <li>🔬 <strong><a href="https://github.com/vedang/pi-review-code">pi-review-code</a></strong> — Build context-rich review prompts and review code in an isolated Pi conversation branch. <code>⭐ 0</code></li>
+  <li>🧹 <strong><a href="https://github.com/vedang/pi-simplify-code">pi-simplify-code</a></strong> — Ask Pi to simplify recently changed code automatically or on demand. <code>⭐ 0</code></li>
+  <li>👀 <strong><a href="https://github.com/vedang/pi-watcher">pi-watcher</a></strong> — Turn marked editor comments into focused prompts in the active Pi session. <code>⭐ 2</code></li>
   <li>🌱 <strong><a href="https://github.com/vedang/bloomclj">bloomclj</a></strong> — Bloom filter implementation in Clojure. <code>⭐ 20</code></li>
   <li>🧹<strong><a href="https://github.com/vedang/nginx-nonewlines">nginx-nonewlines</a></strong> — Nginx module that strips newline characters from served HTML. <code>⭐ 18</code></li>
   <li>🐍<strong><a href="https://github.com/vedang/python-emacs">python-emacs</a></strong> — Emacs setup and third-party packages for a stronger Python workflow. <code>⭐ 11</code></li>
   <li>👷<strong><a href="https://github.com/vedang/emacs-up">emacs-up</a></strong> — My long-running personal Emacs configuration. <code>⭐ 33</code></li>
-  <li>🗂️ <strong><a href="https://github.com/vedang/org-mode-crate">org-mode-crate</a></strong> — Plug-and-play Org Mode configuration built from a real day-to-day workflow. <code>⭐ 23</code></li>
+  <li>🗂️ <strong><a href="https://github.com/vedang/org-mode-crate">org-mode-crate</a></strong> — Plug-and-play Org Mode configuration built from a real day-to-day workflow. <code>⭐ 24</code></li>
   <li>🔧 <strong><a href="https://github.com/vedang/bb-scripts">bb-scripts</a></strong> — A collection of Babashka scripts for day-to-day automation. <code>⭐ 12</code></li>
   <li>📚 <strong><a href="https://github.com/vedang/csaoid">csaoid</a></strong> — Cheat sheets and other interesting documents I keep reaching for. <code>⭐ 21</code></li>
 </ul>
